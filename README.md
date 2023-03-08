@@ -182,6 +182,22 @@ The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 
 3. Very few patients are there with risk score 9, 10, 11, 12
 
+### Attending Physician (Inpatient and Outpatient):
+
 <img width="781" alt="Screen Shot 2023-03-07 at 10 27 31 PM" src="https://user-images.githubusercontent.com/68578215/223636843-0525a398-bd91-4030-89d2-3b1a4ccc4e93.png">
 
+**Observation:**
+
+1. PHY422134, PHY341560, PHY315112, PHY411541, PHY431177 are the top 5 attending physicians for inpatient and PHY422134, PHY341560, PHY315112, PHY411541, PHY431177 are the top 5 attending physicians for outpatient in terms of the number of patients visit.
+
+2. Physician PHY422134 treated 1% of the total inpatients and physician PHY330576 treated 0.5% of the total outpatients.
+
+### Operating Physician (Inpatient and Outpatient):
+
 <img width="774" alt="Screen Shot 2023-03-07 at 10 27 36 PM" src="https://user-images.githubusercontent.com/68578215/223636833-d5fb181a-a998-4a48-9550-51cd1fda95bd.png">
+
+**Observation:**
+
+1. PHY429430, PHY341560, PHY411541, PHY352941, PHY314410 are the top 5 operating physicians for inpatient and PHY330576, PHY424897, PHY314027, PHY423534, PHY357120 are the top 5 operating physicians for outpatient in terms of the number of patients operated.
+
+2. Physician PHY429430 operated 0.56% of the total inpatients and physician PHY330576 operated 0.08% of the total outpatients.
