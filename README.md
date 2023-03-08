@@ -107,6 +107,17 @@ It consists of the claim details for the patients who were admitted into the hos
 **OPAnnualDeductibleAmt:** It consists of a premium paid by the patient for outpatient visits annually.
 
 
+### Merge All the Datasets:  
+
+<img width="725" alt="Screen Shot 2023-03-07 at 10 45 11 PM" src="https://user-images.githubusercontent.com/68578215/223639716-1b690926-bd22-4b48-9c28-48c82312e12a.png">
+
+
+1. Merge Inpatient and Outpatient data based on common columns.
+
+2. Merge beneficiary details with inpatient and outpatient data on BeneID.
+
+3. Merge provider details with previously merged data on ProviderID.
+
 ## Exploratory Data Analysis
 
 ### Distribution of Class Labels (Provider Data):
