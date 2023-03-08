@@ -233,3 +233,30 @@ The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 1. The number of claims is less for inpatient data compared to outpatient data.
 
 2. Even though the claims are less in inpatient data, the percentage of fraudulent activity is more in inpatient data(57.8%) whereas it is 36.5% in outpatient data. This is because the per claim reimbursement amount for inpatient is much higher(35 times calculated earlier) than the per claim reimbursement amount for outpatient.
+
+### Scatter Plot of Patient Age vs InscClaimAmtReimbursed:
+
+<img width="604" alt="Screen Shot 2023-03-07 at 10 59 18 PM" src="https://user-images.githubusercontent.com/68578215/223641591-335f4bed-f44a-468e-ad6b-637d38e844d0.png">
+
+
+**Observation:**
+
+1. From the Scatter Plot of Patient Age vs InscClaimAmtReimbursed, I can observe that if patient’s age60000 it tends to be a fraudulent transaction.
+2. If the patient’s age>88 yrs and claim amount>60000 the probability to be fraudulent is high.
+
+### Scatter Plot of IP_OP_TotalReimbursementAmt vs InscClaimAmtReimbursed:
+
+<img width="634" alt="Screen Shot 2023-03-07 at 10 59 23 PM" src="https://user-images.githubusercontent.com/68578215/223641589-9f8cc100-a2d5-49df-abba-add6ec73cec2.png">
+
+
+**Observation:**
+
+If InscClaimAmtReimbursed>10000 and IP_OP_TotalReimbursementAmt>120000 then the chance to be a fraudulent transaction is high.
+
+### Scatter Plot of IP_OP_AnnualDeductibleAmt vs InscClaimAmtReimbursed:
+
+<img width="694" alt="Screen Shot 2023-03-07 at 10 59 29 PM" src="https://user-images.githubusercontent.com/68578215/223641585-f9e62d83-9bc2-4c12-ae38-23ee1915f4dc.png">
+
+**Observation:**
+
+If IP_OP_AnnualDeductibleAmt<5000 and InscClaimAmtReimbursed>600000 then the chance to be a fraudulent transaction is high.
