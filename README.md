@@ -46,10 +46,10 @@ c) The insurer should pay the claim amount to the provider for legitimate claims
 ###**Train-1542865627584.csv**:
 It consists of provider numbers and corresponding whether this provider is potentially fraudulent. Provider ID is the primary key in that table.
 
-###**Test-1542969243754.csv**:
+### **Test-1542969243754.csv**:
 It consists of only the provider number. We need to predict whether these providers are potential fraud or not.
 
-###**Outpatient Data (Train and Test):**
+### **Outpatient Data (Train and Test):**
 It consists of the claim details for the patients who were not admitted into the hospital, who only visited there. Important columns are explained below.
 
 **BeneID:** It contains the unique id of each beneficiary i.e patients.
@@ -65,7 +65,7 @@ It consists of the claim details for the patients who were not admitted into the
 **InscClaimAmtReimbursed:** It contains the amount reimbursed for that particular claim.
 
 **AttendingPhysician:** It contains the id of the Physician who attended the patient.
-\
+
 **OperatingPhysician:** It contains the id of the Physician who operated on the patient.
 
 **OtherPhysician:** It contains the id of the Physician other than AttendingPhysician and OperatingPhysician who treated the patient.
@@ -76,14 +76,14 @@ It consists of the claim details for the patients who were not admitted into the
 
 **DeductibleAmtPaid:** It consists of the amount by the patient. That is equal to Total_claim_amount — Reimbursed_amount.
 
-###**Inpatient Data (Train and Test):**
+### **Inpatient Data (Train and Test):**
 It consists of the claim details for the patients who were admitted into the hospital. So, it consists of 3 extra columns Admission date, Discharge date, and Diagnosis Group code.
 
 **AdmissionDt:** It contains the date on which the patient was admitted into the hospital in yyyy-mm-dd format.
 **DischargeDt:** It contains the date on which the patient was discharged from the hospital in yyyy-mm-dd format.
 **DiagnosisGroupCode:** It contains a group code for the diagnosis done on the patient.
 
-###**Beneficiary Data (Train and Test):** This data contains beneficiary KYC details like DOB, DOD, Gender, Race, health conditions (Chronic disease if any), State, Country they belong to, etc. Columns of this dataset are explained below.
+### **Beneficiary Data (Train and Test):** This data contains beneficiary KYC details like DOB, DOD, Gender, Race, health conditions (Chronic disease if any), State, Country they belong to, etc. Columns of this dataset are explained below.
 
 **BeneID:** It contains the unique id of the beneficiary.
 
