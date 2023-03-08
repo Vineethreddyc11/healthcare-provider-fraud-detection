@@ -201,3 +201,35 @@ The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 1. PHY429430, PHY341560, PHY411541, PHY352941, PHY314410 are the top 5 operating physicians for inpatient and PHY330576, PHY424897, PHY314027, PHY423534, PHY357120 are the top 5 operating physicians for outpatient in terms of the number of patients operated.
 
 2. Physician PHY429430 operated 0.56% of the total inpatients and physician PHY330576 operated 0.08% of the total outpatients.
+
+### Procedure Code (Inpatient and Outpatient):
+
+<img width="798" alt="Screen Shot 2023-03-07 at 10 55 47 PM" src="https://user-images.githubusercontent.com/68578215/223640968-556dfe01-7186-4748-aca7-7fb9da53c845.png">
+
+**Observation:**
+
+1. 4019, 9904, 2714, 8154, 66 are the top 5 procedures for inpatient, and 9904, 3722, 4516, 2744, 66 are the top 5 procedures for outpatient in terms of the number of diagnoses done.
+
+2. Procedure 4019 is done 6.5% of the total procedures for inpatient and procedure 9904 is done 7.35% of total procedures for outpatient.
+
+### Diagnosis Code (Inpatient and Outpatient):
+
+<img width="742" alt="Screen Shot 2023-03-07 at 10 55 41 PM" src="https://user-images.githubusercontent.com/68578215/223640964-c5beb249-285b-429a-8248-0323fda9ff83.png">
+
+
+**Observation:**
+
+1. 4019, 2724, 25000, 41401, 4280 are the top 5 diagnosis codes for inpatient, and 44019, 25000, 2724, V5869, 4011 are the top 5 diagnosis codes for outpatient in terms of the number of diagnoses done.
+
+2. Procedure 4019 test is done 4.3% of the total diagnosis for inpatient and 4.65% for outpatient.
+
+
+### Distribution of Inpatient Outpatient in Final Dataset
+
+<img width="751" alt="Screen Shot 2023-03-07 at 10 55 36 PM" src="https://user-images.githubusercontent.com/68578215/223640961-24a3cb83-3285-496e-afa1-5844a105fe86.png">
+
+**Observation:**
+
+1. The number of claims is less for inpatient data compared to outpatient data.
+
+2. Even though the claims are less in inpatient data, the percentage of fraudulent activity is more in inpatient data(57.8%) whereas it is 36.5% in outpatient data. This is because the per claim reimbursement amount for inpatient is much higher(35 times calculated earlier) than the per claim reimbursement amount for outpatient.
