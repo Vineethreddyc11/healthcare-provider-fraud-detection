@@ -113,14 +113,14 @@ It consists of the claim details for the patients who were admitted into the hos
 
 <img width="722" alt="Screen Shot 2023-03-07 at 10 26 51 PM" src="https://user-images.githubusercontent.com/68578215/223636860-cfac672a-c913-440f-b6db-542fc71d14fb.png">
 
-** Observation: **
+**Observation:**
 
 This is a highly imbalanced dataset. There are 10% fraudulent providers and 90% non-fraudulent providers.
 
 ### Distribution of Gender (Beneficiary Data):
 <img width="724" alt="Screen Shot 2023-03-07 at 10 26 56 PM" src="https://user-images.githubusercontent.com/68578215/223636858-be67fb92-5a28-43e6-88e7-f39f88ef699d.png">
 
-** Observation: **
+**Observation:**
 
 The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 
@@ -128,18 +128,18 @@ The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 
 <img width="754" alt="Screen Shot 2023-03-07 at 10 27 02 PM" src="https://user-images.githubusercontent.com/68578215/223636853-89ca3c3a-59cc-4b41-9f77-a2c7b22c83f3.png">
 
-** Observation: **
+**Observation:**
 
 1. The top 20 states in terms of the beneficiary count are shown in the above picture.
 2. States with codes 5, 10, 45, 33, and 39 are the top 5 states.
 3. 8.7% of the beneficiaries belong to state 5.
 
 <img width="738" alt="Screen Shot 2023-03-07 at 10 27 08 PM" src="https://user-images.githubusercontent.com/68578215/223636849-17458299-4873-4219-9e9b-86412bbb26a5.png">
-** Observation: **
+**Observation:**
 <img width="740" alt="Screen Shot 2023-03-07 at 10 27 13 PM" src="https://user-images.githubusercontent.com/68578215/223636846-99e57445-5800-4393-b47b-69acc95d4140.png">
 
 
-** Observation: **
+**Observation:**
 <img width="797" alt="Screen Shot 2023-03-07 at 10 27 17 PM" src="https://user-images.githubusercontent.com/68578215/223636844-19d9e6f0-fb2f-4982-8c6d-f29e2b2bb344.png">
 
 
