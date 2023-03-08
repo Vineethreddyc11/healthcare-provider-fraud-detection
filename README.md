@@ -145,14 +145,42 @@ The ratio of genders in beneficiary data is Gender_0 : Gender_1 = 57% : 43%.
 2. States with codes 5, 10, 45, 33, and 39 are the top 5 states.
 3. 8.7% of the beneficiaries belong to state 5.
 
+
+### Distribution of Country (Beneficiary Data):
+
 <img width="738" alt="Screen Shot 2023-03-07 at 10 27 08 PM" src="https://user-images.githubusercontent.com/68578215/223636849-17458299-4873-4219-9e9b-86412bbb26a5.png">
+
 **Observation:**
+
+1. The top 20 countries in terms of the beneficiary count are shown in the above picture.
+
+2. Countries with codes 200, 10, 20, 60, and 0 are the top 5 states.
+
+3.85% of the beneficiaries belong to country code 200.
+
+
+### Distribution of Race (Beneficiary Data):
 <img width="740" alt="Screen Shot 2023-03-07 at 10 27 13 PM" src="https://user-images.githubusercontent.com/68578215/223636846-99e57445-5800-4393-b47b-69acc95d4140.png">
 
 
 **Observation:**
+
+1. Race 1 is the most in terms of beneficiary count.
+
+2. 85% of the beneficiaries belong to race 1.
+
+
+### Distribution of Patient Risk Score (Beneficiary Data):
+
 <img width="797" alt="Screen Shot 2023-03-07 at 10 27 17 PM" src="https://user-images.githubusercontent.com/68578215/223636844-19d9e6f0-fb2f-4982-8c6d-f29e2b2bb344.png">
 
+**Observation:**
+
+1. The distribution of patient risk scores is right-tailed.
+
+2. Most of the patients with risk scores 2, 3, 4, 5.
+
+3. Very few patients are there with risk score 9, 10, 11, 12
 
 <img width="781" alt="Screen Shot 2023-03-07 at 10 27 31 PM" src="https://user-images.githubusercontent.com/68578215/223636843-0525a398-bd91-4030-89d2-3b1a4ccc4e93.png">
 
